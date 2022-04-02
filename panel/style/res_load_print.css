@@ -1,0 +1,271 @@
+
+body{
+	margin: 15px 10px 250px 10px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 8pt;
+	text-align: center;
+	background-color: #DCDCDC;
+}
+table.introhead {
+	width: 955px;
+	margin: 0 auto;
+	border: 0px solid #000 !important;
+}
+
+table.introhead td {
+	text-align: center;
+	border: 0px solid #000 !important;
+    background: none !important;
+}
+
+table.footer {
+	width: 955px;
+	margin: 0 auto;
+	border: 0px solid #000 !important;
+    background: none !important;
+}
+
+table.footer  td {
+
+	text-align: center;
+	border: 0px solid #000 !important;
+	background: none !important;
+}
+
+table {
+	border: 1px solid #666;
+			text-align: left;
+}
+tr td {
+	font-family: "lucida grande", verdana, sans-serif;
+	font-size: 8pt;
+	padding: 3px 8px;
+	background: #fff;
+}
+thead th{
+	color: #fff;
+	background-color: #4682B4;
+	font-weight: bold;
+	border-bottom: 1px solid #0063B4;
+	border-right: 1px solid #d9d9d9;
+	border-collapse: collapse;
+	text-align:center;
+	padding: 5px;
+}
+
+thead th.end {
+	border-right: 0 solid #000;
+}
+
+thead th.info, td.info {
+	width: 100px;
+	text-align: center;
+}
+
+
+tbody td{
+	border-left: 1px solid #D9D9D9;
+}
+tbody tr.even td {
+	background: #eee;
+}
+tbody tr.selected td{
+	background: #3d80df;
+	color: #ffffff;
+	font-weight: normal;
+	border-left: 1px solid #346DBE;
+	border-bottom: 1px solid #7DAAEA;
+}
+
+tbody tr.ruled td{
+	color: #000;
+	background-color: #C6E3FF; 
+	font-weight: normal;
+	border-color: #3292FC;
+}
+
+/* Opera fix */
+head:first-child+body tr.ruled td{
+	background-color: #C6E3FF; 
+}
+
+h1 {
+	color: #009999;
+}
+
+.units {
+float: right;
+font-size: .8em;
+}
+
+td.calc {
+	width: 80px;
+	color: #FF0000;
+	font-size: 13px;
+    text-align: right;
+}
+
+
+
+.calcInput {
+	color: #FF0000;
+	text-align:right;
+	padding: 0px; 
+	border: 1px solid white; 
+	border-collapse: collapse; 
+	background-color: rgb(255, 255, 255);
+}
+
+.calcInputEven {
+	color: #FF0000;
+	text-align:right;
+	padding: 0px;
+	border: 1px solid #eee;
+	border-collapse: collapse;
+	background-color: #eee;"
+}
+
+.calcResultTotal {
+	color: #FF0000;
+	font-size:1.5em;
+	font-weight:bold;
+	text-align:right;
+	padding: 0 5px 0 0; 
+	/*border: 1px solid #fff;*/ 
+	border-collapse: collapse; 
+	background-color: #fff;"
+}
+.calcResultTotalEven {
+	color: #FF0000;
+	text-align:right;
+	font-size:1.5em;
+	font-weight:bold;
+	padding: 0px; 
+	border: 1px solid #eee; 
+	border-collapse: collapse; 
+	background-color: #eee;
+}
+
+.note {
+	font-size: 15px;
+	color: red;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+ul {
+	text-align: left;
+}
+
+#overDiv table tr td table tr td {
+	font-family: "lucida grande", verdana, sans-serif;
+	font-size: 8pt;
+	padding: 3px 3px;
+	background: aliceblue;
+}
+
+#overDiv table {
+	padding: 3px;
+	margin: 0px;
+	background: aliceblue;
+}
+
+#overDiv table tr td {
+	padding: 3px;
+	margin: 0px;
+	background: aliceblue;
+}
+
+table td.item {
+	width: 390px;
+	padding: 9px;
+    vertical-align: middle;
+}
+
+.results1 {
+	text-align:left;
+	color:#DC143C;
+	font-size:.8em;
+	font-weight:bold;
+	padding: 0px;
+	border: 1px solid #fff;
+	border-collapse: collapse;
+	background-color: #fff;
+}
+
+.results2 {
+	text-align:left;
+	color:#DC143C;
+	font-size:.8em;
+	font-weight:bold;
+	padding: 0px;
+	border: 1px solid #eee;
+	border-collapse: collapse;
+	background-color: #eee;
+}
+
+/* table fields */
+
+.dashedInput {
+	text-align:right;
+	padding: 4px; 
+	border: 1px dashed gray; 
+	border-collapse: collapse; 
+	background-color: rgb(255, 255, 255);
+}
+
+
+/*.formRbmt {
+	float:right;
+	font-size:.8em;
+}
+*/
+
+.hovertip {
+	text-decoration: underline;
+}
+
+
+
+.dimensions {
+	float:right;
+	font-size:.8em;
+	color:red;
+}
+
+.total {
+	border-top:1px solid #000;
+}
+
+.watt{
+    width: 80px;
+}
+
+#sampReq,
+#ampReq,
+#hotReq,
+#metReq,
+#ocdReq,
+#sgcReq,
+#sbjReq,
+#conReq,
+#panReq {
+	font-size: 13px;
+    color: #FF0000;
+}
+
+em {
+	color: steelblue;
+	font-weight: bold;
+}
+
+img {
+	border: none;
+}
+
+#terms {
+    width: 955px;
+	margin: 0 auto;
+}
+
+
